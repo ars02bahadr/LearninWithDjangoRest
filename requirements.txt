@@ -1,0 +1,27 @@
+# Django ve Django REST framework
+Django==5.0.3
+djangorestframework==3.14.0
+
+# API Dokümantasyonu için
+drf-yasg==1.21.7
+packaging==23.2
+
+# Kimlik Doğrulama ve Güvenlik
+django-cors-headers==4.3.1
+django-filter==23.5
+
+# Resim İşleme
+Pillow==10.2.0
+
+# Veritabanı
+sqlparse==0.4.4
+
+# Geliştirme Araçları
+python-dotenv==1.0.1
+pytest==8.0.2
+pytest-django==4.8.0
+coverage==7.4.1
+
+# Üretim Ortamı
+gunicorn==21.2.0
+whitenoise==6.6.0
